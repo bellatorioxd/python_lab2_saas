@@ -24,13 +24,6 @@ def get_weather():
     date = json_data.get("date")
     time = json_data.get("time")
 
-    """api_key = request["api_key"]
-    token = request["token"]
-    name = request["requester_name"]
-    location = request["location"]
-    date = request["date"]
-    time = request["time"]"""
-
 
     url = 'https://api.opencagedata.com/geocode/v1/json'
 
